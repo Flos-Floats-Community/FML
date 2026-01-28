@@ -28,24 +28,22 @@
 - **Java**：Java 8或更高版本（用于运行Minecraft）
 - **依赖库**：PyQt5、requests、urllib3
 
-## 安装步骤
+## 本地编译方法
 
 ### 1. 克隆或下载项目
 ```bash
-git clone https://github.com/yourusername/float-minecraft-launcher.git
-cd float-minecraft-launcher
+git clone https://github.com/Flos-Floats-Community/FML
+cd FML
 ```
 
 ### 2. 安装依赖
 ```bash
-pip install PyQt5 requests
+pip install PyQt5 requests pyinstaller
 ```
 
-## 使用方法
-
-### 启动启动器
+### 3.编译
 ```bash
-python launcher.py
+pyinstaller --onefile --noconsole launcher.py #如果需要调试信息请去掉--noconsole
 ```
 
 ### 登录方式
