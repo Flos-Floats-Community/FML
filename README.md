@@ -173,7 +173,7 @@ MIT License
 ## 联系方式
 
 如有问题或建议，欢迎联系：
-- GitHub Issues：[Submit Issue](https://github.com/yourusername/float-minecraft-launcher/issues)
+- GitHub Issues：[Submit Issue](https://github.com//Flos-Floats-Community/FML/issues)
 
 ---
 
