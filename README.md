@@ -41,18 +41,6 @@ cd float-minecraft-launcher
 pip install PyQt5 requests
 ```
 
-### 3. 配置应用程序
-
-#### Azure应用程序注册
-1. 访问 [Azure 门户](https://portal.azure.com/)
-2. 注册一个新的应用程序
-3. 设置以下信息：
-   - **名称**：Float Minecraft Launcher
-   - **支持的账户类型**：个人 Microsoft 账户用户
-   - **重定向URI**：`http://localhost:5000`
-4. 复制应用程序(客户端) ID
-5. 在 `launcher.py` 文件中更新 `client_id` 值
-
 ## 使用方法
 
 ### 启动启动器
@@ -104,6 +92,7 @@ python launcher.py
 - IP地址被限制
 - FastGit加速服务影响
 - Microsoft账户未拥有Minecraft游戏
+- 官方暂停了我们的AppID服务并且开始审查我们的服务
 
 **解决方案**：
 - 等待一段时间后重试
